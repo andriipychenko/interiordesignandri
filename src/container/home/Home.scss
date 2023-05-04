@@ -1,0 +1,60 @@
+.home .hero {
+    min-height: 60vh;
+    background: url(../../assets/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.home .row {
+    margin: 0;
+}
+
+.home .hero .text1 {
+    font-size: 5rem;
+    width: 45rem;
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    opacity: .8;
+}
+
+.home .hero .text2 {
+    font-size: 3rem;
+    width: 35rem;
+    background: var(--orange);
+    padding: 1rem;
+    text-align: center;
+    opacity: .8;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.home .hero img {
+    width: 10%;
+}
+
+.home .counting {
+    min-height: 40vh;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home .counting .box {
+    margin: 2rem 4rem;
+    text-align: center;
+}
+
+.home .counting .box .count {
+    font-size: 7rem;
+    color: #444;
+}
+
+.home .counting .box h3 {
+    font-size: 2rem;
+    color: var(--orange);
+}
